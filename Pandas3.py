@@ -1,5 +1,5 @@
 import pandas as pd
 
-data=pd.read_csv('titanic.csv')
+data=pd.read_csv('data.csv')
 
 print(data)
