@@ -1,9 +1,14 @@
 import pandas as pd
 
-a=pd.DataFrame([[2, 4, 6, 8],[7, 9, 11, 13]],columns=['Pen','Shirt','Book','Mouse'])
+data = {
+  "calories": [420, 380, 390],
+  "duration": [50, 40, 45]
+}
 
+#load data into a DataFrame object:
+df = pd.DataFrame(data)
+
+a=pd.DataFrame([[420, 380, 390],[50, 40, 45]],columns=['Pen','Shirt','Book'])
+
+print(df)
 print(a)
-
-b["Mobile"]=[15, 23, 2, 45]
-
-
